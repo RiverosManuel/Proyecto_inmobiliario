@@ -2,14 +2,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
 }
+
+
 
 .bg-icecream {
     background-color: rgb(104, 14, 14);
 }
 
 .body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #111;
+   text-transform: capitalize;
 }
 
 .hero-card- {
@@ -412,64 +417,67 @@ button {
     object-fit: cover;
 }
 
-
-.container-footer{
-max-width: 1200px;
-margin: 0 auto;
-}
-.footer-total {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #111;
-    margin-top: 1000px;
+.container-footer {
+    max-width: 1200px;
+    margin: 0px auto;
 }
 
 .footer {
-    margin-top: 1000px;
-    height: auto;
-    background-color: transparent(87, 0, 0);
-    padding: 80px 0 ;
+    margin-top: 20px;
+    background-color: black;
+    padding: 80px 0;
 }
-
 
 .footer-row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.footer-link {
     width: 25%;
     padding: 0 15px;
 }
 
-.footer-links h4{
+.footer-links h4 {
     font-size: 20px;
-    color: white;
+    color: #5e5e5e;
     margin-bottom: 25px;
     font-weight: 500;
-    border-bottom: 2px solid red;
+    border-bottom:2px solid #720c0c;
     padding-bottom: 10px;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .footer-links ul li a {
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: #720c0c;
-    background-color: #5e5e5e;
     display: block;
     margin-bottom: 15px;
-    transition: all 3s ease;
+    transition: all .3s ease;
 }
 
-.footer-links ul li a:hover{
-    color: #5e5e5e;
-    background-color: #720c0c;
+.footer-links ul li a:hover {
+    background-color: #e70303;
+    color: white;
     padding-left: 6px;
+
 }
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #e70303;
+    transition: all .5s ease;
+}
+
+.social-link a:hover {
+    background-color: red;
+}
+
