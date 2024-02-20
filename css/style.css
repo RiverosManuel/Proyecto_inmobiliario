@@ -51,7 +51,7 @@
     .hero-card-content-ambientes{
         display: flex;
         flex-wrap: wrap;
-        background-color: blanchedalmond;
+        background-color: rgb(160, 7, 7);
         color: #030303;
     }
 }
@@ -72,7 +72,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #666666;
+    background-color: #000000;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -89,9 +89,12 @@
 @media ( max-width:480px) {
     .card-container{
         display: flex;
-        flex-wrap: wrap;
-        background-color: blanchedalmond;
-        color: #030303;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(158, 0, 0);
+        color: #ffffff;
     }
 }
 
@@ -522,6 +525,7 @@ button {
     background-color: black;
     padding: 80px 0;
 }
+
 
 .footer-row {
     display: flex;
