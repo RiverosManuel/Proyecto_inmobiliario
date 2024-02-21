@@ -1,0 +1,83 @@
+.hero {
+    background-image: url(../assets/terraza\ 1.jpg);
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.hero h1 {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5%;
+    color: red;
+    font-size: 24px;
+    border:none
+}
+
+.row {
+    background-color: #616161;
+    color: white;
+    margin: 0;
+    height: 150px;
+    justify-content: space-around;
+}
+
+.card {
+    border: none;
+}
+
+.btn-primary:hover .btn-primary:focus, .btn-primary:active {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.card-total {
+    margin: 20px;
+    height: 800px;
+    background-color: #030303;
+}
+.card-body {
+    width: 100%;
+    height: 100%;
+    border:10px;
+    color: white;
+    background-color: rgb(192, 20, 20);
+}
+
+.card-body:hover{
+    border: 10px;
+    border-radius: 5%;
+    box-shadow: 8px 8px 20px 10px rgb(0, 0, 0);
+}
+.card-body {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    color: white;
+    background-color: rgb(192, 20, 20);
+}
+
+.hero- {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    
+}
+.card-img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px;
+    border-radius: 5%;
+    justify-content: space-between;
+    width: 100%;
+    height: 470px;
+}
