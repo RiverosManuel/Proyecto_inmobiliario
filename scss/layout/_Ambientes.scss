@@ -3,7 +3,7 @@
 }
 
 .hero-card-content-ambientes {
-    background-color: $mainColor;
+    background: linear-gradient(45deg,rgb(148, 6, 6) white);
     color: #ffffff;
     padding: 15px;
     display: flex;
@@ -139,7 +139,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background:linear-gradient(45deg, white, red);
+    background: linear-gradient(45deg, white, red);
     color: #030303;
     height: 100%;
 }

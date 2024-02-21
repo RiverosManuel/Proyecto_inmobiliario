@@ -157,7 +157,7 @@
 }
 
 .hero-card-content-ambientes {
-  background-color: rgb(167, 17, 17);
+  background: linear-gradient(45deg, rgb(148, 6, 6) white);
   color: #ffffff;
   padding: 15px;
   display: flex;
