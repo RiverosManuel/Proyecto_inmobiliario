@@ -36,7 +36,7 @@
 }
 .hero-card-content-ambientes {
     display: flex;
-    background: linear-gradient(red  rgb(0, 0, 0));
+    background: linear-gradient(45deg, red black);
     align-items:center;
     color: #e70303;
     width: 100%;
@@ -121,7 +121,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background:linear-gradient(white rgb(148, 6, 6) );
+    background: linear-gradient(45deg, black, transparent);
     color: #ffffff;
 }
 }
