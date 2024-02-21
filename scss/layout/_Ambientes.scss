@@ -109,3 +109,42 @@
     width: 100%;
     height: 470px;
 }
+
+@media ( max-width:1024px) {    .hero-card-content-ambientes {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(148, 6, 6);
+    color: #ffffff;
+}
+}
+
+@media ( max-width:768px) {
+.hero-card-ambientes, .hero-card-ambientes img{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+}
+@media ( max-width:480px) {
+.hero-card-content-ambientes{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(160, 7, 7);
+    color: #030303;
+}
+}
+
+
+
+@media ( max-width:480px) {
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(158, 0, 0);
+    color: #ffffff;
+}
+}
