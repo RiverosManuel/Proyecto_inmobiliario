@@ -155,8 +155,7 @@
 .hero-container-ambientes {
   margin-top: 50px;
 }
-
-.hero-card-content-ambientes {
+.hero-container-ambientes .hero-card-content-ambientes {
   background-color: #000000;
   color: #ffffff;
   padding: 15px;
@@ -165,31 +164,18 @@
   gap: 15px;
   justify-content: space-between;
 }
-
-.hero-card-ambientes {
+.hero-container-ambientes .hero-card-ambientes {
   display: flex;
   margin-top: 10px;
   border: 10px solid rgb(78, 78, 78);
 }
-
-.hero-card-ambientes img {
+.hero-container-ambientes .hero-card-ambientes img {
   width: 50%;
   height: 600px;
   object-fit: cover;
   gap: 10px;
 }
-
-.card-container {
-  padding: 10px;
-  background-color: rgb(148, 6, 6);
-  color: #ffffff;
-  border: 5px solid rgb(15, 12, 12);
-  border-color: rgb(0, 0, 0);
-  width: 33%;
-  height: 90%;
-}
-
-.hero-card-content-ambientes {
+.hero-container-ambientes .hero-card-content-ambientes {
   display: flex;
   background: linear-gradient(45deg, black, red);
   align-items: center;
@@ -205,8 +191,7 @@
   justify-content: center;
   position: relative;
 }
-
-.hero-card-content-ambientes :hover {
+.hero-container-ambientes .hero-card-content-ambientes :hover {
   background-color: #e70303;
   flex-direction: column;
   color: azure;
@@ -224,8 +209,16 @@
   height: 100%;
   width: 100%;
 }
-
-.container- {
+.container .card-container {
+  padding: 10px;
+  background-color: rgb(148, 6, 6);
+  color: #ffffff;
+  border: 5px solid rgb(15, 12, 12);
+  border-color: rgb(0, 0, 0);
+  width: 33%;
+  height: 90%;
+}
+.container .container- {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -234,8 +227,18 @@
   height: 50%;
   margin-top: 20px;
 }
-
-.card-container img {
+.container .card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 5px;
+  border-radius: 5%;
+  justify-content: space-between;
+  width: 100%;
+  height: 470px;
+}
+.container .card-container img {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -251,18 +254,6 @@
   background-color: #5e5e5e;
   width: 100%;
   height: 500px;
-}
-
-.card-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 5px;
-  border-radius: 5%;
-  justify-content: space-between;
-  width: 100%;
-  height: 470px;
 }
 
 .hero- {
