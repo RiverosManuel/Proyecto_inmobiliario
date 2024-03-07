@@ -56,6 +56,12 @@
   .tittle-amb, .row-1 {
     animation: aparecer 2s ease-in-out infinite;
   }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   
   .hero-container-ambientes {
     margin-top: 20px;
@@ -65,18 +71,20 @@
     color: #ffffff;
     padding: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 15px;
     justify-content: space-between;
   }
   .hero-container-ambientes .hero-card-ambientes {
     display: flex;
+    flex-direction: row;
     margin-top: 10px;
     border: 10px solid rgb(78, 78, 78);
   }
   .hero-card-ambientes img {
     width: 50%;
-    height: auto;
+    height: 85vh;
     object-fit: cover;
     position: relative;
     gap: 10px;

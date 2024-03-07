@@ -34,6 +34,8 @@
     border: 5px;
     gap: 15px;
   }
+
+  
   
   .btn-primary:hover .btn-primary:focus, .btn-primary:active {
     border: 2px solid rgb(0, 0, 0);
@@ -42,9 +44,10 @@
   
   .card-total {
     margin: 20px;
-    height: 800px;
+    height: auto;
     background-color: #030303;
   }
+
 
   .card-img-top {
     margin-top: 20px;
