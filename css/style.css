@@ -11,9 +11,14 @@
   text-transform: capitalize;
 }
 
-
+.container-fluid {
+  color: white;
+  width: auto;
+}
 .bg-icecream {
-  background-color: rgb(104, 14, 14);
+  background-color: rgb(122, 13, 13);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .footer {
